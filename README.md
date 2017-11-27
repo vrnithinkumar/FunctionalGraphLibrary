@@ -1,7 +1,7 @@
 # Functional Graph Library
 [Martin Erwig's Functional Graph Library](https://hackage.haskell.org/package/fgl) in F#
 
-Other inspiration 
+## Other inspiration 
 - [OCaml implementation by Monal Narasimhamurthy](https://github.com/monal/ocaml-fgl)
 
 ## Reference 

@@ -4,13 +4,14 @@ param(
     [switch]$Rebuild,
     [switch]$Sync,
     [switch]$Clean,
-    [switch]$Test,
+    [switch]$Test
 )
 
-$CommandToExecute =""
+$CommandToExecute = ""
 
 if($Build)
 {
+    $CommandToExecute += "dotnet build;"
 
 }
 
@@ -33,3 +34,5 @@ if($Test)
 {
 
 }
+
+Invoke-Expression $CommandToExecute

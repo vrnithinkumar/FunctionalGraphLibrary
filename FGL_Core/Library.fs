@@ -1,5 +1,12 @@
 namespace FGL_Core
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+module CoreTypes =
+
+module CoreFunctions =
+    let create =
+        printfn "creating the graph" 
+
+    let delete graph =
+        printfn "deleting the graph"
+
+    let add g n =
